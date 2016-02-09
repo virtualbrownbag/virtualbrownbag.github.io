@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/Avenir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Avenir';
+  background: #7A3E26;
+  color: #fff;
+}
+
+h1 {
+  font-size: 46.6662px;
+}
+
+h2 {
+  font-size: 37.3338px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 18.6662px;
+}
+
+h5 {
+  font-size: 16.3338px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.banner {
+  text-align: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
