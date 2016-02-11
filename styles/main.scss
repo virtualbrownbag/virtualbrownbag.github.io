@@ -1,3 +1,11 @@
+$brown-1: #2A1A00;
+$brown-2: #462D03;
+$brown-3: #362200;
+$brown-4: #734800;
+$brown-5: #A86900;
+
+
+
 @font-face {
   font-family: 'Avenir';
   src: url('../fonts/Avenir.ttf') format('truetype');
@@ -33,8 +41,33 @@ $base-font-size: 14px;
 
 body {
   font-family: 'Avenir';
-  background: $brown;
-  color: $white;
+  padding: 0px;
+  margin: 0px;
+  .banner {
+    background: $brown-1;
+    color: $white;
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin: 0px;
+    h1 {
+      // color: $brown-5;
+    }
+    a {
+      color: $white;
+    }
+  }
+  main {
+    .row {
+      display:flex;
+      width: 100%;
+    }
+    section {
+      padding: 10px;
+      width: 50%;
+      flex-grow: 1;
+    }
+  }
 }
 
 @include font-size-mixin($base-font-size);
@@ -49,10 +82,4 @@ h2 {
 
 h3 {
   text-align: center;
-}
-
-.banner {
-  text-align: center;
-  padding-top: 36px;
-  padding-bottom: 36px;
 }

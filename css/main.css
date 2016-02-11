@@ -7,8 +7,32 @@
 
 body {
   font-family: 'Avenir';
-  background: #7A3E26;
+  padding: 0px;
+  margin: 0px;
+}
+
+body .banner {
+  background: #2A1A00;
   color: #fff;
+  text-align: center;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  margin: 0px;
+}
+
+body .banner a {
+  color: #fff;
+}
+
+body main .row {
+  display: flex;
+  width: 100%;
+}
+
+body main section {
+  padding: 10px;
+  width: 50%;
+  flex-grow: 1;
 }
 
 h1 {
@@ -45,10 +69,4 @@ h2 {
 
 h3 {
   text-align: center;
-}
-
-.banner {
-  text-align: center;
-  padding-top: 36px;
-  padding-bottom: 36px;
 }
