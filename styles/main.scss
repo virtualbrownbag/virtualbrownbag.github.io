@@ -65,7 +65,27 @@ body {
     section {
       padding: 10px;
       width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+      text-align: center;
       flex-grow: 1;
+      p {
+        text-align: left;
+      }
+    }
+    #upcoming-meetings, #previous-meetings {
+      ol {
+        text-align: left;
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style-type: none;
+        h4 {
+          margin: 0px;
+        }
+        li {
+          margin-bottom: 10px;
+        }
+      }
     }
   }
 }

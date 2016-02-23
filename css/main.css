@@ -32,7 +32,32 @@ body main .row {
 body main section {
   padding: 10px;
   width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
   flex-grow: 1;
+}
+
+body main section p {
+  text-align: left;
+}
+
+body main #upcoming-meetings ol,
+body main #previous-meetings ol {
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+body main #upcoming-meetings ol h4,
+body main #previous-meetings ol h4 {
+  margin: 0px;
+}
+
+body main #upcoming-meetings ol li,
+body main #previous-meetings ol li {
+  margin-bottom: 10px;
 }
 
 h1 {
